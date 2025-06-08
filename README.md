@@ -4,25 +4,65 @@ Repository chronicling my 7-year UiPath RPA career: real-world automations, indu
 https://www.matrixcare.com/
 ![image](https://github.com/user-attachments/assets/d7896ff4-aff4-4bbc-b7d5-19e3c4026ad8)
 
-![image](https://github.com/user-attachments/assets/be76c909-e89b-4087-a1dc-9a1ccde5f891)
-
-![image](https://github.com/user-attachments/assets/b08923ba-0990-4a13-9a77-a907251ded0c)
-
-
-
-# 🦾 Automating Stories That Matter
-
-![hero](docs/images/hero.gif)
-
-## Preface – *“There has to be a better way…”*
-
-Seven years ago I was the rookie in a Medicaid billing office, staring at an avalanche of invoices and spreadsheets.  Manual copy‑paste ruled the day, error rates were **5 %**, and overtime pizza was a line‑item in the budget.  When I discovered **UiPath** those long nights turned into my playground – and eventually into the portfolio you’re reading now.
-
-Below are the three flagship adventures that taught me how to make robots pay their own salaries (and then some).  Every link opens the actual source so you can peel back the curtain and reuse anything you like.
+**Corrected version**
 
 ---
 
-## 1. *The Indiana Overhead Odyssey*
+Hi, I’m **MasterOfLogic**, an **Intelligent Automation Evangelist**.
+If you’re reading this journal, you’re probably looking for more than a dry résumé—you want to see the synergy between my passion for intelligent automation and a glimpse of my personal journey.
+
+### From Newcomer to Change-Maker
+
+I joined **Access Bank** in 2018 as a **Process Automation Engineer** with only a rough idea of what the role entailed. Seven years later, I’m proud of the measurable impact I’ve had: building dozens of automations, optimising countless processes, and dramatically improving key metrics such as speed, reliability, and cost.
+
+In this document I’ll highlight a few signature projects and explain why they matter.
+
+---
+
+## 1. Indiana Overhead Adjustment
+
+### The environment
+
+**MatrixCare** is a desktop electronic health-record (EHR) and operations platform designed for post-acute and long-term-care providers (skilled-nursing facilities, senior-living communities, home-health and hospice agencies, life-plan/CCRC campuses, and private-duty nursing). Its modular suite spans point-of-care charting, medication & e-MAR, admissions, revenue cycle, analytics, and data exchange with hospitals and HIEs.
+[https://www.matrixcare.com/](https://www.matrixcare.com/)
+
+### The manual pain point
+
+Billing officers receive CSV files with **over two million invoice lines**. Each officer must:
+
+1. Split the file into smaller chunks.
+2. Open each invoice in MatrixCare (about two screens per invoice).
+3. Edit the posting amount.
+
+The rule: *If the total balance is negative **and** any component balance is divisible by \$34.50, adjust the posting amount—for PA Indiana Medicaid payees only.*
+
+### Our automation
+
+Using UiPath, I built a **desktop automation** that:
+
+* Parses the CSV, identifies qualifying invoices, and batch-updates them in MatrixCare.
+* Applies smart data filtering to minimise screen navigation and optimise speed.
+* Logs every change for audit compliance.
+
+### Impact
+
+| Metric                     | Before automation | After automation     |
+| -------------------------- | ----------------- | -------------------- |
+| Employees involved         | 30                | 0 (fully unattended) |
+| Hours per employee per day | 6                 | 0                    |
+| Hourly cost                | \$45              | \$0                  |
+| **Daily labour cost**      | **\$8,100**       | **\$0**              |
+
+*(30 employees × 6 hours × \$45 = \$8,100 per day)*
+
+Beyond the direct \$8 k-per-day savings, the bot eliminates manual errors and slashes turnaround time from days to hours.
+
+GitHub repo: [https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process](https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process)
+Process steps: [https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process?tab=readme-ov-file#readme](https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process?tab=readme-ov-file#readme)
+
+---
+
+*More project spotlights coming soon.*
 
 ### The Scene
 
