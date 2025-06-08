@@ -16,6 +16,9 @@ In this document I’ll highlight a few signature projects and explain why they 
 
 ## 1. Indiana Overhead Adjustment
 
+Link to project: [https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process](https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process)
+Process steps: [https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process?tab=readme-ov-file#readme](https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process?tab=readme-ov-file#readme)
+
 ### The environment
 
 **MatrixCare** is a desktop electronic health-record (EHR) and operations platform designed for post-acute and long-term-care providers (skilled-nursing facilities, senior-living communities, home-health and hospice agencies, life-plan/CCRC campuses, and private-duty nursing). Its modular suite spans point-of-care charting, medication & e-MAR, admissions, revenue cycle, analytics, and data exchange with hospitals and HIEs.
@@ -52,8 +55,7 @@ Using UiPath, I built a **desktop automation** that:
 
 Beyond the direct \$8 k-per-day savings, the bot eliminates manual errors and slashes turnaround time from days to hours.
 
-GitHub repo: [https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process](https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process)
-Process steps: [https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process?tab=readme-ov-file#readme](https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process?tab=readme-ov-file#readme)
+
 
 ---
 
