@@ -1,11 +1,6 @@
 # MyUiPathJournal
 Repository chronicling my 7-year UiPath RPA career: real-world automations, industry-standard workflows, design docs, and quantified impact. Perfect learning resource for UiPath beginners and a portfolio for clients assessing my automation expertise.
 
-https://www.matrixcare.com/
-![image](https://github.com/user-attachments/assets/d7896ff4-aff4-4bbc-b7d5-19e3c4026ad8)
-
-**Corrected version**
-
 ---
 
 Hi, I’m **MasterOfLogic**, an **Intelligent Automation Evangelist**.
@@ -25,6 +20,7 @@ In this document I’ll highlight a few signature projects and explain why they 
 
 **MatrixCare** is a desktop electronic health-record (EHR) and operations platform designed for post-acute and long-term-care providers (skilled-nursing facilities, senior-living communities, home-health and hospice agencies, life-plan/CCRC campuses, and private-duty nursing). Its modular suite spans point-of-care charting, medication & e-MAR, admissions, revenue cycle, analytics, and data exchange with hospitals and HIEs.
 [https://www.matrixcare.com/](https://www.matrixcare.com/)
+![image](https://github.com/user-attachments/assets/d7896ff4-aff4-4bbc-b7d5-19e3c4026ad8)
 
 ### The manual pain point
 
