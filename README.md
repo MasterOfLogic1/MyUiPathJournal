@@ -26,9 +26,8 @@ In this document I’ll highlight a few signature projects and explain why they 
 
 Billing officers receive CSV files with **over two million invoice lines**. Each officer must:
 
-1. Split the file into smaller chunks.
-2. Open each invoice in MatrixCare (about two screens per invoice).
-3. Edit the posting amount.
+1. Open each invoice in MatrixCare (about two screens per invoice).
+2. Edit the posting amount.
 
 The rule: *If the total balance is negative **and** any component balance is divisible by \$34.50, adjust the posting amount—for PA Indiana Medicaid payees only.*
 
