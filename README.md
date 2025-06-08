@@ -4,6 +4,9 @@ Repository chronicling my 7-year UiPath RPA career: real-world automations, indu
 https://www.matrixcare.com/
 ![image](https://github.com/user-attachments/assets/d7896ff4-aff4-4bbc-b7d5-19e3c4026ad8)
 
+![image](https://github.com/user-attachments/assets/be76c909-e89b-4087-a1dc-9a1ccde5f891)
+
+
 # 🦾 Automating Stories That Matter
 
 ![hero](docs/images/hero.gif)
