@@ -40,16 +40,17 @@ Here  Billing officers receive CSV files with **over two million invoice lines**
 1. Open each invoice in MatrixCare
 2. Search for the invoice on matrix care which appears with multiple transactions on the desktop app
 3. for each transaction see , Edit the posting amount (The rule: *If the total balance is negative **and** any component balance is divisible by \$34.50, adjust the posting amount—for PA Indiana Medicaid payees only.*
-)
+4. The traditional process takes 2 dayys or more to complete as entry specilist get tired and make mistakes.
+
 
 
 ### Our automation
 
-Using UiPath, I built a **desktop automation** that:
+Using UiPath, built a **desktop automation** that performs these steps in the most optimal way in 1hr
 
-* Parses the CSV, identifies qualifying invoices, and batch-updates them in MatrixCare.
-* Applies smart data filtering to minimise screen navigation and optimise speed.
-* Logs every change for audit compliance.
+* Csv is sent through a uipath app and is loaded into a storage bucket
+* The app also triggers the robot which reads the csv, refines the records and loads the data into a queue
+* queue triggers are set to kick start 4 robots running the performer process which handles adjustment of the overhead balances.
 
 ### Impact
 
@@ -60,36 +61,13 @@ Using UiPath, I built a **desktop automation** that:
 | Hourly cost                | \$45              | \$0                  |
 | **Daily labour cost**      | **\$8,100**       | **\$0**              |
 
-*(30 employees × 6 hours × \$45 = \$8,100 per day)*
+*(30 employees × 6 hours × \$45 = \$8,100 per day)* at \$45 /hour – **\$2.1 million** a year.
 
 Beyond the direct \$8 k-per-day savings, the bot eliminates manual errors and slashes turnaround time from days to hours.
-
-
-
----
-
-*More project spotlights coming soon.*
-
-### The Scene
-
-Thirty clerks, six hours each day, chipping away at a stubborn pile of **Indiana Medicaid** invoices.  Their mission: find any invoice whose **total was negative** *and* whose individual lines were perfectly divisible by **\$34.50**.  Mundane, brittle, and – at \$45 /hour – **\$2.1 million** a year.
-
-### My Hero’s Toolkit
-
-* Desktop robot built with razor‑sharp selectors and multithreaded queues
-* Batch adjustment logic scripted in pure activities (no code fancy footwork)
-* Real‑time audit emails + a Power BI feed for finance leadership
-
-### Happily Ever After
-
-⏱️ Processing time: 180 human‑hours → **3 unattended hours**
+⏱️ Processing time: 180 human‑hours → **1 unattended hours**
 💰 Labour spend: **\$2,106,000 saved** yearly
-🔗 [Source](https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process)
-
-![Overhead diagram](docs/images/overhead_adjustment_flow.png)
 
 ---
-
 ## 2. *The Sandata EVV Double‑Act*
 
 *(Dispatcher & Performer)*
