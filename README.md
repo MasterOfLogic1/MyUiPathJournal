@@ -16,6 +16,9 @@ In this document I’ll highlight a few signature projects and explain why they 
 
 ## 1. Indiana Overhead Adjustment
 
+**Type of process:** Unattended
+**Type of automation:** Desktop Ui-Automation automation
+
 **Link to project:** [https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process](https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process)
 
 **Process steps:** [https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process?tab=readme-ov-file#readme](https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process?tab=readme-ov-file#readme)
