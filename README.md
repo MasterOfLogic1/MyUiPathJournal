@@ -20,24 +20,28 @@ In this document I’ll highlight a few signature projects and explain why they 
 
 **Type of automation:** Desktop Ui-Automation automation
 
-**Link to project:** [https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process](https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process)
-
-**Process steps:** [https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process?tab=readme-ov-file#readme](https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process?tab=readme-ov-file#readme)
-
-### The environment
+**Applications involved:** Matrixcare Desktop app
 
 **MatrixCare** is a desktop electronic health-record (EHR) and operations platform designed for post-acute and long-term-care providers (skilled-nursing facilities, senior-living communities, home-health and hospice agencies, life-plan/CCRC campuses, and private-duty nursing). Its modular suite spans point-of-care charting, medication & e-MAR, admissions, revenue cycle, analytics, and data exchange with hospitals and HIEs.
 [https://www.matrixcare.com/](https://www.matrixcare.com/)
 ![image](https://github.com/user-attachments/assets/d7896ff4-aff4-4bbc-b7d5-19e3c4026ad8)
 
-### The manual pain point
+**Link to project:** [https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process](https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process)
 
-Billing officers receive CSV files with **over two million invoice lines**. Each officer must:
+**Process steps:** [https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process?tab=readme-ov-file#readme](https://github.com/MasterOfLogic1/IndianaOverheadAdjustment.RPA.Uipath.Process?tab=readme-ov-file#readme)
 
-1. Open each invoice in MatrixCare (about two screens per invoice).
-2. Edit the posting amount.
 
-The rule: *If the total balance is negative **and** any component balance is divisible by \$34.50, adjust the posting amount—for PA Indiana Medicaid payees only.*
+
+
+### The manual process
+
+Here  Billing officers receive CSV files with **over two million invoice lines**. Each officer must:
+
+1. Open each invoice in MatrixCare
+2. Search for the invoice on matrix care which appears with multiple transactions on the desktop app
+3. for each transaction see , Edit the posting amount (The rule: *If the total balance is negative **and** any component balance is divisible by \$34.50, adjust the posting amount—for PA Indiana Medicaid payees only.*
+)
+
 
 ### Our automation
 
